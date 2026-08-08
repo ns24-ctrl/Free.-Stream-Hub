@@ -1,0 +1,15 @@
+{
+  "name": "FreeStream Hub Android Build",
+  "image": "mcr.microsoft.com/devcontainers/java:17",
+  "features": {
+    "ghcr.io/devcontainers/features/android-sdk:2": {
+      "version": "35",
+      "installGradle": true
+    }
+  },
+  "customizations": {
+    "vscode": {
+      "extensions": ["vscjava.vscode-gradle"]
+    }
+  }
+}
